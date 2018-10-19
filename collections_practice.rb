@@ -41,7 +41,11 @@ def sum_array(int)
 end
   
 def add_s(array)
+<<<<<<< HEAD
   array.each_with_index.collect do |element, index| 
+=======
+  array.each_with_index.collect do |element, index|
+>>>>>>> 2fdab5ef9b47dde6a5e076928a6c6dee6195a0e2
     if index == 1
       element
     else
